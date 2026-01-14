@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerald NEMEYIMANA | Software Developer</title>
+    <meta name="description" content="Portfolio of Gerald NEMEYIMANA — Software Developer & Project Analyst specializing in React, Node.js, Laravel, Python, and modern UX." />
+    <meta name="theme-color" content="#06b6d4" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Gerald NEMEYIMANA | Software Developer" />
+    <meta property="og:description" content="Modern web and mobile experiences with React, Node.js, Laravel, Python, and Flutter." />
+    <meta property="og:url" content="/" />
+    <meta property="og:image" content="/social-preview.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Gerald NEMEYIMANA | Software Developer" />
+    <meta name="twitter:description" content="Modern web and mobile experiences with React, Node.js, Laravel, Python, and Flutter." />
+    <meta name="twitter:image" content="/social-preview.png" />
+    <script>
+      (function() {
+        try {
+          var stored = localStorage.getItem('theme');
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var dark = stored ? stored === 'dark' : prefersDark;
+          if (dark) document.documentElement.classList.add('dark');
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-neutral-50 text-neutral-900 dark:bg-neutral-950 dark:text-neutral-100">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
